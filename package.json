@@ -17,7 +17,7 @@
   },
   "contributors": [
     "Pablo Castaneda",
-    "Juan Sanchez",
+    "Juan Sanchez"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -38,7 +38,7 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon", "mocha", "coffeescript",
+    "ember-addon", "mocha", "coffeescript"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"

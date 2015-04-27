@@ -7,9 +7,11 @@ module.exports = {
   name: 'ember-cli-mocha-coffeescript',
 
   blueprintsEnabled: function() {
-    var config = this.project.config(process.env.EMBER_ENV).coffeeOptions.blueprints;
-    if (config !== undefined) {
-      return config;
+    var config = this.project.config(process.env.EMBER_ENV),
+        coffeeOptions = config.coffeeOptions;
+
+    if (coffeeOptions && coffeeOptions.blueprints !== undefined) {
+      return coffeeOptions.blueprints;
     } else {
       return true;
     }

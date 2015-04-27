@@ -1,4 +1,5 @@
 # jshint expr:true
+`import { expect } from 'chai'`
 `import { describeModule, it } from 'ember-mocha'`
 
 describeModule "view:<%= dasherizedModuleName %>", "<%= classifiedModuleName %>View", {

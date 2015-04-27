@@ -1,4 +1,5 @@
 # jshint expr:true
+`import { expect } from 'chai'`
 `import { describeComponent, it } from 'ember-mocha'`
 
 describeComponent "<%= dasherizedModuleName %>", "<%= classifiedModuleName %>Component", {
